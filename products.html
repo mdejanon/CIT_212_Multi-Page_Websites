@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Page Websites - PRODUCTS | CIT 212</title>
+    <link rel="stylesheet" href="./css/css_style.css">
+    <style>
+        .images {
+            position: relative;
+            top: 95px;
+            width: 100%;
+            height: 265px;
+        }
+        figure {
+            height: 196px;
+            width: 201px;
+            border: 2px solid #332E0B;
+            background-color: #534B88;
+            border-radius: 5px;
+        }
+        .img_resize {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h3>
+            <a class="no_deco" href="index.html">HOME</a> - 
+            <a class="no_deco" href="about.html">ABOUT</a> - 
+            <a class="no_deco" href="products.html">PRODUCTS</a>
+        </h3>
+    </nav>
+    <div class="images">
+        <figure style="position: absolute; left: 10px">
+            <img class="img_resize" src="./img/product1.jpg">
+        </figure>
+        <figure style="position: absolute; top: 20px; left: 225px">
+            <img class="img_resize" src="./img/product2.jpg">
+        </figure>
+        <figure style="position: absolute; left: 440px">
+            <img class="img_resize" src="./img/product3.jpg">
+        </figure>
+        <figure style="position: absolute; top: 20px; left: 655px">
+            <img class="img_resize" src="./img/product4.jpg">
+        </figure>
+    </div>
+    <footer> 
+        <p>Created by Max De Janon</p>
+    </footer>
+</body>
+</html>
