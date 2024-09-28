@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #D9D6C5;
+}
+
+.no_deco {
+    text-decoration: none;
+    color: #CAC7DA;
+}
+
+nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 51px;
+    padding-top: 25px;
+    background-color: #2B2359;
+    border-bottom: 4px solid #847C49;
+    text-align: center;
+    color: #CAC7DA;
+    z-index: 99;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 20px;
+    padding-top: 5px;
+    background-color: #2B2359;
+    border-top: 4px solid #847C49;
+    text-align: center;
+    color: #CAC7DA; 
+    z-index: 99;
+}
